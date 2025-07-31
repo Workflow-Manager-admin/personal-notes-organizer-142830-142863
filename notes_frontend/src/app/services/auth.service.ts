@@ -15,6 +15,7 @@ export class AuthService {
   /** Reactive signal mirroring login state. */
   readonly isAuthenticated = signal<boolean>(this.hasSession());
 
+  // eslint-disable-next-line no-unused-vars
   constructor(private router: Router) {
     // reference to silence lint rule
     void this.router;

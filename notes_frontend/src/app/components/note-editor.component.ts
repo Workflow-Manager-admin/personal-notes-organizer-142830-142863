@@ -57,6 +57,7 @@ import { NotesService } from '../services/notes.service';
 export class NoteEditorComponent implements OnChanges, OnInit {
   @Input() note?: Note;
 
+  // eslint-disable-next-line no-unused-vars
   constructor(private notes: NotesService) {}
 
   ngOnInit(): void {

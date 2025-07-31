@@ -61,6 +61,7 @@ export class SidebarComponent implements OnInit {
   ];
   @Output() select = new EventEmitter<string | undefined>();
 
+  // eslint-disable-next-line no-unused-vars
   constructor(public auth: AuthService) {}
 
   ngOnInit(): void {

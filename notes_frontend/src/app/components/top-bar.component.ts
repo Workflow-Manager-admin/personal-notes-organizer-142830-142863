@@ -48,6 +48,7 @@ import { FormsModule } from '@angular/forms';
 export class TopBarComponent implements OnInit {
   @Output() search = new EventEmitter<string>();
   term = '';
+  // eslint-disable-next-line no-unused-vars
   constructor(public theme: ThemeService) {}
 
   ngOnInit(): void {

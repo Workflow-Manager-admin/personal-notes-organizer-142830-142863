@@ -60,6 +60,7 @@ export class LoginComponent implements OnInit {
   email = '';
   password = '';
 
+  // eslint-disable-next-line no-unused-vars
   constructor(private auth: AuthService) {}
 
   ngOnInit(): void {
