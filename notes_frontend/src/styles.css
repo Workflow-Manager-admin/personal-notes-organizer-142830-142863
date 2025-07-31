@@ -1,18 +1,18 @@
 /* Global styles for minimalistic design */
 :root {
-  /* Primary application colors – monochrome palette */
-  --color-primary: #000;   /* Black */
-  --color-secondary: #333; /* Dark gray for subtle contrast */
-  --color-accent: #fff;    /* White for highlights/buttons */
+  /* Primary application colors – modern minimalistic palette */
+  --color-primary: #1976d2; /* Brand primary blue */
+  --color-secondary: #424242; /* Deep grey for sidebars & borders */
+  --color-accent: #ffd600; /* Vibrant accent yellow for highlights/buttons */
 }
 
 body.dark-theme {
-  /* Inverted monochrome theme */
-  --color-primary: #fff;   /* Header/primary surfaces turn white */
-  --color-secondary: #000; /* Sidebar/background becomes black */
-  --color-accent: #fff;    /* Accent remains white for consistency */
-  background-color: #000;  /* Page background black */
-  color: #fff;             /* Text white */
+  /* Dark-mode variant preserving brand palette */
+  --color-primary: #90caf9;  /* Lightened primary for dark surfaces */
+  --color-secondary: #212121; /* Near-black background elements */
+  --color-accent: #ffd600;   /* Accent stays consistent */
+  background-color: #121212; /* Overall dark background */
+  color: #fff;               /* Global text colour */
 }
 
 * {

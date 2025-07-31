@@ -62,6 +62,7 @@ export class NotesListComponent implements OnInit {
 
   selected?: Note;
 
+  // eslint-disable-next-line no-unused-vars
   constructor(private notes: NotesService) {}
 
   ngOnInit(): void {
