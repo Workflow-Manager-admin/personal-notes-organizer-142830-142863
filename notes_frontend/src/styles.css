@@ -1,4 +1,18 @@
 /* Global styles for minimalistic design */
+:root {
+  --color-primary: #1976d2;
+  --color-secondary: #424242;
+  --color-accent: #ffd600;
+}
+
+body.dark-theme {
+  --color-primary: #424242;
+  --color-secondary: #1976d2;
+  --color-accent: #ffab00;
+  background-color: #121212;
+  color: #eee;
+}
+
 * {
   margin: 0;
   padding: 0;

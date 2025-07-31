@@ -1,3 +1,13 @@
-<div class="container">
-  <h1>{{ title }}</h1>
+<app-top-bar (search)="term = $event"></app-top-bar>
+
+<div class="layout">
+  <app-sidebar (select)="categoryId = $event"></app-sidebar>
+  <div class="content">
+    <app-notes-list
+      [searchTerm]="term"
+      [categoryId]="categoryId"
+    ></app-notes-list>
+  </div>
 </div>
+
+<router-outlet></router-outlet>
